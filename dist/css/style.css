@@ -1,0 +1,146 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+    body {
+        font-family: 'FontAwesome', sans-serif;
+        font-size: 1rem;
+        line-height: 1.6rem;
+        background-color: #fff;
+        color: #111;
+    }
+    /*body::before{
+        display: block;
+        content: '';
+        height: 40px;
+    }*/
+    a {
+        text-decoration: none;
+        color:#17a2b8;
+    }
+    ul {
+        list-style: none;
+    }
+    img {
+        width: 80%;
+    }
+    .widget {
+        margin-bottom: 40px;
+        padding: 40px;
+        background: #ffffff;
+        box-shadow: 0 0 20px rgb(31 29 29 / 7%);
+    }
+    .widget:hover {
+        -webkit-box-shadow: 1px 4px 20px -2px rgb(0 0 0 / 20%);
+        box-shadow: 1px 4px 20px -2px rgb(0 0 0 / 20%);
+    }
+/* Navbar  */
+    
+    .navbar-brand{
+        font-size: 2rem;
+        margin-top: 10px;
+    }
+    .navbar ul {
+        font-size: 1.2rem;
+        color: #343a40;
+    }
+    .navbar a {
+        color:#17a2b8;
+        border: none;
+    }
+    .navbar a:hover {
+        color: #fff;
+    }
+    .fa-bars{
+        width: 1rem;
+        color:#17a2b8;
+        margin-top: -10px;
+    }
+    .fa-bars:hover {
+        color: #fff;
+    }
+/* End Navbar Page */
+
+/* landing */
+    .landing{
+        position: relative;
+        background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+        height: 100vh;
+    }
+    .landing-inner{
+        color: #fff;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        width: 80%;
+        margin: auto;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+    .dark-overlay {
+        height: 100%;
+        width: 100%;
+        position: absolute;
+        top: 0;
+        left: 0;
+        background-color: rgba(0,0, 0, 0.7);
+    }
+    .x-large {
+        font-size: 4rem;
+        line-height: 1.2;
+        margin-bottom: 1rem;
+    }
+    .large{
+        font-size: 3rem;
+        line-height: 1.2;
+        margin-bottom: 1rem;
+    }
+    .lead {
+        font-size: 1.5rem;
+        margin-bottom: 1rem;
+        text-transform: capitalize;
+    }
+/* End landing Page */
+
+/* Start Register Page */
+    .container-2 {
+        width: 500px;
+        margin: auto;
+        overflow: hidden;
+        padding: 0.2rem;
+        margin-top: 2rem;
+        margin-bottom: 1rem;
+    }
+    .text-primary {
+       color: #17a2b8 ; 
+    }
+
+    .form-group {
+        margin: 1.2rem;
+    }
+    .form-text{
+        display: block;
+        margin-top: 0.3rem;
+        color: #888;
+    }
+    input {
+        display: block;
+        width: 100%;
+        padding: 0.4rem;
+        font-size: 1.2rem;
+        border: 1px solid #ccc;
+    }
+    .my-1 {
+        margin: 1rem;
+    }
+    .lead{
+        text-transform: capitalize;
+    }
+/* End Register Page */
+
+
+footer div  p{
+    color:#17a2b8; 
+}

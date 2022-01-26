@@ -1,0 +1,41 @@
+/*---Media Queries--*/
+/*For -------- xs device same code -------- */
+
+@media(min-width: 275px) and (max-width: 767px){
+	ul{
+	    text-align: center;
+	}
+	li:hover{
+		background-color: #17a2b8;
+		border: 1px solid #FFF;
+	}
+	.x-large {
+        font-size: 2rem;
+        line-height: 1.2;
+        margin-bottom: 1rem;
+    }
+    .large{
+        font-size: 1rem;
+        line-height: 1.2;
+        margin-bottom: 1rem;
+    }
+    .lead {
+        font-size: 1rem;
+        margin-bottom: 1rem;
+        text-transform: capitalize;
+    }
+
+	
+}/*End of 767px*/
+
+/*For -------- xs -------- device*/
+
+@media (max-width: 992px){
+	
+}
+@media (max-width: 768px){
+	
+}
+@media (max-width: 576px){
+
+}
